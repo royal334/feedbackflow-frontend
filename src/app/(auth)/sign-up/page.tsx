@@ -37,7 +37,7 @@ export default function SignUpPage() {
     },
   })
 
-  const onSubmit = async (data: SignUpValues) => {
+  const onSubmit = async (data: SignUpValues) => {   
     setError('')
     setLoading(true)
 

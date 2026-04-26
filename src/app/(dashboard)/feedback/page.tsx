@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { useFeedback, FeedbackStatus } from '@/hooks/useFeedback'
-import { FeedbackCard } from '@/components/feedback/FeedbackCard'
-import { SubmitFeedbackModal } from '@/components/feedback/SubmitFeedbackModal'
+import { useFeedback, FeedbackStatus } from '@/hooks/use-feedback'
+import { FeedbackCard } from '@/components/feedback/feedback-card'
+import { SubmitFeedbackModal } from '@/components/feedback/submit-feedback-modal'
 import { Button } from '@/components/ui/button'
 
 const FILTERS: { label: string; value: FeedbackStatus | 'ALL' }[] = [
