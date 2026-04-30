@@ -50,7 +50,8 @@ export default function SignInPage() {
       return
     }
 
-    router.push('/feedback')
+    // Force a hard navigation instead of client-side push
+  window.location.href = '/feedback'
   }
 
   return (
